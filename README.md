@@ -3,10 +3,10 @@ Project of a News Tracker Site. It uses pre-defined themes and regions per theme
 
 ### Server Initialization
 
-##Backend
+## Backend
 Folder: /
 - python -m news.api.main
 
-##Frontend
+## Frontend
 Folder: /client
 - npm run dev
