@@ -26,7 +26,7 @@ _CACHE_TTL_SEC = 60  # suficiente dado seu REFRESH_INTERVAL em minutos
 
 class GoogleNewsFeed(BaseFeed):
     BASE_URL = "https://news.google.com/rss/search"
-    TIMEOUT = 15
+    TIMEOUT = 10
     REGION_CONFIG = {
         "BR": {"hl": "pt-BR", "ceid": "BR:pt"},
         "US": {"hl": "en-US", "ceid": "US:en"},
